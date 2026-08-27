@@ -1,0 +1,49 @@
+# ---- Visual Studio ----
+.vs/
+*.slnx
+*.sqlite
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ---- Build outputs ----
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bin/
+obj/
+*.exe
+*.obj
+*.o
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.log
+
+# ---- VS Code ----
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ---- Workspace/project state ----
+VSWorkspaceState.json
+ProjectSettings.json
+*.wsuo
+*.opendb
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Archives (usually shouldn't be committed) ----
+*.zip
+
+# ---- Optional: data files ----
+# Uncomment if these CSVs are generated/test data rather than needed source data
+# *.csv
